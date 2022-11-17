@@ -7,6 +7,8 @@
 Using the two in conjunction is one of the fastest ways to build a web app.
 
 ### Getting Started
+- npm install
+- npm run dev
 - Hit run
 - Edit [App.jsx](#src/App.jsx) and watch it live update!
 
