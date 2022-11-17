@@ -94,7 +94,7 @@ const Videos = () => {
             perfomer: "Alex"
         },
 
-      
+
       {
             id: 9,
             fullName: "Puella Magi Madoka Magica OP Claris - Connect コネクト Guitar Cover",
@@ -103,10 +103,10 @@ const Videos = () => {
             gender: "male",
             cover: "/src/image/maleProfile.jpeg",
             perfomer: "Alex"
-           
+
         }
-      
-                                         
+
+
         ]) ;
   return (
   <main className="container">
@@ -115,30 +115,29 @@ const Videos = () => {
         <select className="form-select form-select-lg">
           <option value="2019">2019</option>
           <option value="2020">2020</option>
-          <option value="2021">2021</option>          
+          <option value="2021">2021</option>
           <option value="2022">2022</option>
         </select>
       </div>
     </div>
-<div className="row justify-content-center mt-3 mb-3">
-                <div className = "col-8">
-                    <div className="card-collection">
-                        {
-                            Videos.map((video) => ( 
-                                <div key={video.id} id={video.id} className="card m-2" style={{cursor: "pointer"}}>                                  
-                                   <img src={video.cover} className="card-img-top" alt="profile" />
-                                    <div className="card-body">
-                                      
-                                        <h5 className="card-title">Full Name: {video.fullName}</h5>
-                                        <p className="card-text"> <a target="_blank" href={video.link}>youtube</a></p>
-                                    </div>
-                                </div>
-                            ))
-                        }
-                    </div>
-                </div>
-            </div>
+      <div className="row justify-content-center mt-3 mb-3">
+          <div className = "col-8">
+              <div className="card-collection">
+                  {
+                      Videos.map((video) => (
+                          <div key={video.id} id={video.id} className="card m-2" style={{cursor: "pointer"}}>
+                              <img src={video.cover} className="card-img-top" />
+                              <div key={video.id} className="card-body">
+                                  <h5 className="card-title">Full Name: {video.fullName}</h5>
+                                  <p className="card-text"> <a target="_blank" href={video.link}>youtube</a></p>
+                              </div>
+                          </div>
+                      ))
+                  }
+              </div>
+          </div>
+      </div>
   </main>
   )
-} 
+}
 export default Videos;
