@@ -1,0 +1,13 @@
+body{
+  font-family:Arial
+}
+.card-collection{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+@media only screen and (max-width: 600px) {
+.card-collection {
+grid-template-columns: 1fr;
+}
+}
