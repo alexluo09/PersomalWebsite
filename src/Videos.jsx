@@ -9,7 +9,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=gLgD-zuo_JA",
             year: "2022",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/StandingAlone.jpeg",
             perfomer: "Alex"
         },
         {
@@ -18,7 +18,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=e4sZszHqf14",
             year: "2022",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Thebeginning.jpeg",
             perfomer: "Alex"
         },
              {
@@ -27,7 +27,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=ZWapTvTcmQI",
             year: "2018",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/champagne.jpeg",
             perfomer: "Alex"
         },
              {
@@ -36,7 +36,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=H-XZnx-JBYU",
             year: "2018",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/FutureGazer.jpeg",
             perfomer: "Alex"
         },
                    {
@@ -45,7 +45,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=Ax0F-T_LQeE",
             year: "2017",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/SugarSong.jpeg",
             perfomer: "Alex"
         },
                    {
@@ -54,7 +54,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=bk5hpra9Gfc",
             year: "2018",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/PopTeamEpic.jpeg",
             perfomer: "Alex"
         },
                    {
@@ -63,7 +63,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=e4sZszHqf14",
             year: "2022",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Thebeginning.jpeg",
             perfomer: "Alex"
         },
                    {
@@ -72,7 +72,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=WH8l27jMTIg",
             year: "2017",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Fable.jpeg",
             perfomer: "Alex"
         },
                    {
@@ -81,7 +81,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=SDc33tWYZHg",
             year: "2017",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Senpai.jpeg",
             perfomer: "Alex"
         },
                          {
@@ -90,7 +90,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=OF-c1UEwz18",
             year: "2016",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Nobody'sHome.jpeg",
             perfomer: "Alex"
         },
 
@@ -101,7 +101,7 @@ const Videos = () => {
             link: "https://www.youtube.com/watch?v=-y3pllOIowI",
             year: "2021",
             gender: "male",
-            cover: "/src/image/maleProfile.jpeg",
+            cover: "/src/image/Connect.jpeg",
             perfomer: "Alex"
 
         }
